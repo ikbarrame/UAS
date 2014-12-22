@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kumpulan Dakwah Dua Bahasa</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="aplikasi_kumpuilan_dakwah_dua_bahasa_ini_dibuat_oleh_seorang_mahasiswa_uin_sgd_bandung_jurusan_teknik_informatika_tahun_2014">Aplikasi Kumpuilan Dakwah Dua Bahasa ini dibuat oleh seorang mahasiswa UIN SGD Bandung jurusan Teknik Informatika Tahun 2014</string>
+
+</resources>

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kddb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:vmSafeMode="false">
+        <!-- Splash Screen -->
+        <activity 
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+              </activity>
+       
+        <!-- Main Activity -->
+       <activity 
+           android:name=".Main1Activity"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- Activity2 -->
+       <activity 
+           android:name=".Activity2"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       <!-- Activity3 -->
+       <activity 
+           android:name=".Activity3"
+           android:label="@string/app_name">        
+       </activity> 
+       
+         <!-- Kategori -->
+       <activity 
+           android:name=".Kategori"
+           android:label="@string/app_name">        
+       </activity> 
+            
+        <!-- Tentang -->
+       <activity 
+           android:name=".Tentang"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- About -->
+       <activity 
+           android:name=".About"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- Category -->
+       <activity 
+           android:name=".Category"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       <!-- Khutbah Jumat 1-->
+       <activity 
+           android:name=".KhutbahJumat1"
+           android:label="@string/app_name">        
+       </activity> 
+            			       
+              
+        <!-- Detail Khutbah Jumat Indo1-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo1"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Indo2-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo2"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Indo3-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo3"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Indo4-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo4"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Indo5-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo5"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Indo6-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo6"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Indo7-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo7"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Indo8-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo8"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Indo9-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo9"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Indo10-->
+       <activity 
+           android:name=".DetailKhutbahJumatIndo10"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Khutbah Jumat 2-->
+       <activity 
+           android:name=".KhutbahJumat2"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- Detail Khutbah Jumat Ing1-->
+       <activity 
+           android:name=".DetailKhutbahJumatIng1"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Ing2-->
+       <activity 
+           android:name=".DetailKhutbahJumatIng2"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Jumat Ing3-->
+       <activity 
+           android:name=".DetailKhutbahJumatIng3"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Ing4-->
+       <activity 
+           android:name=".DetailKhutbahJumatIng4"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Ing5-->
+       <activity 
+           android:name=".DetailKhutbahJumatIng5"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Khutbah Jumat Ing6-->
+       <activity 
+           android:name=".DetailKhutbahJumatIng6"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Dakwah Harian1-->
+       <activity 
+           android:name=".DakwahHarianIndo"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Dakwah Harian Indo1-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo1"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Dakwah Harian Indo2-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo2"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Dakwah Harian Indo3-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo3"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Dakwah Harian Indo4-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo4"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Dakwah Harian Indo5-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo5"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Dakwah Harian Indo6-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo6"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Dakwah Harian Indo7-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo7"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Dakwah Harian Indo8-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo8"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Dakwah Harian Indo9-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo9"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Dakwah Harian Indo10-->
+       <activity 
+           android:name=".DetailDakwahHarianIndo10"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Dakwah Harian Ing-->
+       <activity 
+           android:name=".DakwahHarianIng"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Dakwah Harian Ing1-->
+       <activity 
+           android:name=".DetailDakwahHarianIng1"
+           android:label="@string/app_name">        
+       </activity>      
+       
+        <!-- Detail Dakwah Harian Ing2-->
+       <activity 
+           android:name=".DetailDakwahHarianIng2"
+           android:label="@string/app_name">        
+       </activity>     
+       
+         <!-- Detail Dakwah Harian Ing3-->
+       <activity 
+           android:name=".DetailDakwahHarianIng3"
+           android:label="@string/app_name">        
+       </activity>   
+       
+       <!-- Detail Dakwah Harian Ing4-->
+       <activity 
+           android:name=".DetailDakwahHarianIng4"
+           android:label="@string/app_name">        
+       </activity>   
+       
+       <!-- Detail Dakwah Harian Ing5-->
+       <activity 
+           android:name=".DetailDakwahHarianIng5"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       <!-- Detail Dakwah Harian Ing6-->
+       <activity 
+           android:name=".DetailDakwahHarianIng6"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       
+       <!-- Hari Besar Ing-->
+       <activity 
+           android:name=".HariBesarIng"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Isra Miraj Ing1-->
+       <activity 
+           android:name=".DetailIsraMirajIng1"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Isra Miraj Ing2-->
+       <activity 
+           android:name=".DetailIsraMirajIng2"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Isra Miraj Ing3-->
+       <activity 
+           android:name=".DetailIsraMirajIng3"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Maulid Nabi Ing1-->
+       <activity 
+           android:name=".DetailMaulidNabiIng1"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- Detail Maulid Nabi Ing2-->
+       <activity 
+           android:name=".DetailMaulidNabiIng2"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       <!-- Detail Maulid Nabi Ing3-->
+       <activity 
+           android:name=".DetailMaulidNabiIng3"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       <!-- Detail Maulid Nabi Ing4-->
+       <activity 
+           android:name=".DetailMaulidNabiIng4"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        
+       <!-- Detail Maulid Nabi Ing5-->
+       <activity 
+           android:name=".DetailMaulidNabiIng5"
+           android:label="@string/app_name">        
+       </activity> 
+       
+       <!-- Hari Besar Indo-->
+       <activity 
+           android:name=".HariBesarIndo"
+           android:label="@string/app_name">        
+       </activity>
+       
+       
+        <!-- Detail Isra Miraj Indo1-->
+       <activity 
+           android:name=".DetailIsraMirajIndo1"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Isra Miraj Indo2-->
+       <activity 
+           android:name=".DetailIsraMirajIndo2"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Isra Miraj Indo3-->
+       <activity 
+           android:name=".DetailIsraMirajIndo3"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Isra Miraj Indo4-->
+       <activity 
+           android:name=".DetailIsraMirajIndo4"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Isra Miraj Indo5-->
+       <activity 
+           android:name=".DetailIsraMirajIndo5"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Maulid Nabi Indo1-->
+       <activity 
+           android:name=".DetailMaulidNabiIndo1"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Maulid Nabi Indo2-->
+       <activity 
+           android:name=".DetailMaulidNabiIndo2"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Maulid Nabi Indo3-->
+       <activity 
+           android:name=".DetailMaulidNabiIndo3"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Maulid Nabi Indo4-->
+       <activity 
+           android:name=".DetailMaulidNabiIndo4"
+           android:label="@string/app_name">        
+       </activity>
+       
+       <!-- Detail Maulid Nabi Indo5-->
+       <activity 
+           android:name=".DetailMaulidNabiIndo5"
+           android:label="@string/app_name">        
+       </activity>
+       
+       
+       <!-- Khutbah Hari Raya Indo-->
+       <activity 
+           android:name=".KhutbahHariRayaIndo"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- Detail Khutbah Idul Adha Indo1-->
+       <activity 
+           android:name=".DetailKhutbahIdulAdhaIndo1"
+           android:label="@string/app_name">        
+       </activity> 
+       
+        <!-- Detail Khutbah Idul Adha Indo2-->
+       <activity 
+           android:name=".DetailKhutbahIdulAdhaIndo2"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Adha Indo3-->
+       <activity 
+           android:name=".DetailKhutbahIdulAdhaIndo3"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Adha Indo4-->
+       <activity 
+           android:name=".DetailKhutbahIdulAdhaIndo4"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Adha Indo5-->
+       <activity 
+           android:name=".DetailKhutbahIdulAdhaIndo5"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Fitri Indo1-->
+       <activity 
+           android:name=".DetailKhutbahIdulFitriIndo1"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Fitri Indo2-->
+       <activity 
+           android:name=".DetailKhutbahIdulFitriIndo2"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Fitri Indo3-->
+       <activity 
+           android:name=".DetailKhutbahIdulFitriIndo3"
+           android:label="@string/app_name">        
+       </activity>
+       
+        <!-- Detail Khutbah Idul Fitri Indo4-->
+       <activity 
+           android:name=".DetailKhutbahIdulFitriIndo4"
+           android:label="@string/app_name">        
+       </activity>
+       
+         </application>
+
+</manifest>
